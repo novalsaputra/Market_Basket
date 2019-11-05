@@ -37,6 +37,7 @@ rules<-rules.pruned
 write(rules, file = "data.csv",  sep = ",")
 
 ##Testing Git
+##Testing 2 Git 
 
 ## Create different visualizations
 plot(rules, method="graph", main="", control=list(layout=igraph::with_graphopt()))
